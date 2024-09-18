@@ -1,0 +1,99 @@
+body.A{
+    
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.637), rgba(255, 255, 255, 0)),url('./img/homebg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size:150% 100%;
+    background-position: 60% 0%;
+    user-select: none;
+  }
+  
+  .logo{
+    position:absolute;
+    left:5px;
+    height: 100px;
+    width: 140px;
+  }
+  
+  .button {
+    
+    color: white;
+    border:none;
+    padding: 10px 25px;
+    background-color:green ;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+  
+  .color {
+    padding: 15px 32px;
+  background-color: green;
+  }
+
+  .login{
+    
+    padding: 10px 25px;
+  background-color: green;
+  }
+  
+  .center{
+  position:absolute;
+  top:35%;
+  right :5%;
+  text-align:center;
+  height:50%;
+  width:50%;
+  }
+  
+  .a{
+    font-size:100px;
+    color: rgb(255, 0, 0);
+  }
+  
+  .b{
+    font-size:100px;
+    color: #00abff;
+  }
+  
+  .main {
+    float: right;
+    background-color: #333;
+
+  }
+  
+  .main a {
+    float: left; 
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .main a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .main a.active {
+    background-color: #ff0000;
+    color: white;
+  }
+  .main a.active:hover {
+    background-color: #00abff;
+    color: white;
+  }
+
+  .center1{
+    position:absolute;
+    top:35%;
+    right :10%;
+    text-align:center;
+    min-width: 50px;
+    }
+
+    label{
+      font-size: 28px;
+    }
